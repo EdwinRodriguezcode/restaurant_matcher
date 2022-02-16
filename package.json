@@ -1,0 +1,26 @@
+{
+  "name": "restaurant_matcher",
+  "version": "1.0.0",
+  "description": "This is an web sit that a user will answer a coulpe questins and the app will match them to a location",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwinRodriguezcode/restaurant_matcher.git"
+  },
+  "author": "Edwin Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwinRodriguezcode/restaurant_matcher/issues"
+  },
+  "homepage": "https://github.com/EdwinRodriguezcode/restaurant_matcher#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
