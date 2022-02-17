@@ -24,7 +24,7 @@ app.post('/hungryusers', function(req,res) {
     var match;
     var matchScore = 100;
 
-    for (var idx = 0; idx<hubgyusersJSON.lenghth; idx++) {//outer looping through users
+    for (var idx = 0; idx<hungyusersJSON.lenghth; idx++) {//outer looping through users
         var totalDiff = 0;
     for (var jdx=0; jdx<10; jdx++) {//inner loopin through scores
     totalDiff += Math.abs(newHungryuser.scores[jdx]-hungryusersJSON[idx].score[jdx])
